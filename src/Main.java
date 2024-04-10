@@ -19,5 +19,12 @@ public class Main {
         while (sc.hasNextLine())
             top1000BabyGirlsNamesUSAList.add(sc.nextLine());
         sc.close();
+
+        System.out.println("The TOP TEN is: ");
+        for (int i = 0; i < 9; i++) {
+            System.out.println((i+1)+") " + top1000BabyGirlsNamesUSAList.get(i));
+        }
+
+        System.out.println("The actual ArrayList size is: " +top1000BabyGirlsNamesUSAList.size()+".");
     }
 }
