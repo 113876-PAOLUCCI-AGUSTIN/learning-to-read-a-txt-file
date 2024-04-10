@@ -1,3 +1,10 @@
+/*
+ *
+ * Top 1,000 baby girl names in the U.S.
+ * SOURCE: https://www.today.com/parents/babies/popular-baby-girl-names-rcna11278
+ *
+ */
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
